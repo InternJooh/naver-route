@@ -1,12 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
 
 export function BlogNav() {
-  interface title {
+  interface Title {
     link: string;
     name: string;
   }
 
-  const navTitle:title[] = [
+  const navTitles:Title[] = [
     {
       link: '',
       name: '블로그 홈'
@@ -32,7 +32,7 @@ export function BlogNav() {
   return (
     <nav>
       <ul>
-        {navTitle.map((title, index) => {
+        {navTitles.map((title, index) => {
           return (
             <li key={index}>
               <Link className="link-style" to={`/blog${title.link}`}>

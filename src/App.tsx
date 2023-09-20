@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { HomeNav } from './pages/home/HomeNav'
 import { CafeRoutes } from './pages/cafe/CafeRoutes';
 import { BlogRoutes } from './pages/blog/BlogRoutes';
+import { ShopRoutes } from './pages/shop/ShopRoutes';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Route path="/" element={<HomeNav />} /> {/* 
       <Route path="/mail" element={<HomeNav />} /> */}
       <Route path="/cafe/*" element={<CafeRoutes />} />
-      <Route path="/blog/*" element={<BlogRoutes />} /> {/*}
-      <Route path="/shop" element={<HomeNav />} />
+      <Route path="/blog/*" element={<BlogRoutes />} /> 
+      <Route path="/shop/*" element={<ShopRoutes />} /> {/*}
       <Route path="/news" element={<HomeNav />} />
       <Route path="/finance" element={<HomeNav />} />
       <Route path="/land" element={<HomeNav />} />
