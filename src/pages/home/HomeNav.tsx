@@ -1,51 +1,16 @@
 import { Link } from "react-router-dom"
-import '../../components/global-style/Nav.css'
+import '../../components/global-style/NavMenu.css'
 
-export function HomeNav() {
-  interface Title {
-    link: string;
-    name: string;
-  }
+interface Title {
+  link: string;
+  name: string;
+}
 
-  const navTitles:Title[] = [
-    {
-      link: 'mail',
-      name: '메일'
-    },
-    {
-      link: 'cafe',
-      name: '카페'
-    },
-    {
-      link: 'blog',
-      name: '블로그'
-    },
-    {
-      link: 'shop',
-      name: '쇼핑'
-    },
-    {
-      link: 'news',
-      name: '뉴스'
-    },
-    {
-      link: 'finance',
-      name: '증권'
-    },
-    {
-      link: 'land',
-      name: '부동산'
-    },
-    {
-      link: 'map',
-      name: '지도'
-    },
-    {
-      link: 'comic',
-      name: '웹툰'
-    }
-  ]
+interface NavMenuProps {
+  navTitles: Title[];
+}
 
+export function HomeNav({ navTitles }:NavMenuProps) {
   return (
     <nav className="home-nav">
       <ul>
