@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsPolitics() {
-  return <h1>Politics</h1>
+  return <div className="grey-content">정치</div>
 }

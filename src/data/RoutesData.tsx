@@ -56,6 +56,19 @@ import { NewsRanking } from "../pages/news/pages/newsHome/content/NewsRanking"
 import { NewsSocial } from "../pages/news/pages/newsHome/content/NewsSocial"
 import { NewsTV } from "../pages/news/pages/newsHome/content/NewsTV"
 import { NewsWorld } from "../pages/news/pages/newsHome/content/NewsWorld"
+import { NewsSportAG } from "../pages/news/pages/newsSport/content/NewsSportAG";
+import { NewsSportBasketball } from "../pages/news/pages/newsSport/content/NewsSportBasketball";
+import { NewsSportESport } from "../pages/news/pages/newsSport/content/NewsSportESport";
+import { NewsSportGolf } from "../pages/news/pages/newsSport/content/NewsSportGolf";
+import { NewsSportHome } from "../pages/news/pages/newsSport/content/NewsSportHome";
+import { NewsSportKBaseball } from "../pages/news/pages/newsSport/content/NewsSportKBaseball";
+import { NewsSportKSoccer } from "../pages/news/pages/newsSport/content/NewsSportKSoccer";
+import { NewsSportPress } from "../pages/news/pages/newsSport/content/NewsSportPress";
+import { NewsSportRanking } from "../pages/news/pages/newsSport/content/NewsSportRanking";
+import { NewsSportScore } from "../pages/news/pages/newsSport/content/NewsSportScore";
+import { NewsSportVolleyball } from "../pages/news/pages/newsSport/content/NewsSportVolleyball";
+import { NewsSportWBaseball } from "../pages/news/pages/newsSport/content/NewsSportWBaseball";
+import { NewsSportWSoccer } from "../pages/news/pages/newsSport/content/NewsSportWSoccer";
 import { NewsWeatherAir } from "../pages/news/pages/newsWeather/content/NewsWeatherAir";
 import { NewsWeatherCompare } from "../pages/news/pages/newsWeather/content/NewsWeatherCompare";
 import { NewsWeatherHome } from "../pages/news/pages/newsWeather/content/NewsWeatherHome";
@@ -294,6 +307,62 @@ export const eNewsRoutesData:Data[] = [
   {
     path: '/recent',
     component: <NewsEntertainRecent />
+  }
+]
+
+// 뉴스 스포츠
+export const sNewsRoutesData:Data[] = [
+  {
+    path: '',
+    component: <NewsSportHome />
+  },
+  {
+    path: '/kbaseball',
+    component: <NewsSportKBaseball />
+  },
+  {
+    path: '/wbaseball',
+    component: <NewsSportWBaseball />
+  },
+  {
+    path: '/ksoccer',
+    component: <NewsSportKSoccer />
+  },
+  {
+    path: '/wsoccer',
+    component: <NewsSportWSoccer />
+  },
+  {
+    path: '/basketball',
+    component: <NewsSportBasketball />
+  },
+  {
+    path: '/volleyball',
+    component: <NewsSportVolleyball />
+  },
+  {
+    path: '/golf',
+    component: <NewsSportGolf />
+  },
+  {
+    path: '/ag-general',
+    component: <NewsSportAG />
+  },
+  {
+    path: '/e-sport',
+    component: <NewsSportESport />
+  },
+  {
+    path: '/press',
+    component: <NewsSportPress />
+  },
+  {
+    path: '/scoreboard',
+    component: <NewsSportScore />
+  },
+  {
+    path: '/ranking',
+    component: <NewsSportRanking />
   }
 ]
 

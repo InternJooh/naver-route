@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsSocial() {
-  return <h1>Social News</h1>
+  return <div className="grey-content">사회</div>
 }

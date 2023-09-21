@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsByCompany() {
-  return <h1>News by Company</h1>
+  return <div className="grey-content">언론사별</div>
 }

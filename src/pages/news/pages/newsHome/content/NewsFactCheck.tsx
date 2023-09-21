@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsFactCheck() {
-  return <h1>Fact Check</h1>
+  return <div className="grey-content">팩트 체크</div>
 }

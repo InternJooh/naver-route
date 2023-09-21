@@ -13,6 +13,8 @@ import { MailHome } from './pages/mail/content/MailHome';
 import { Home } from './pages/home/Home';
 import { NewsEntertainRoutes } from './pages/news/routes/NewsEntertainRoutes';
 import { NewsWeatherRoutes } from './pages/news/routes/NewsWeatherRoutes';
+import { NewsSportRoutes } from './pages/news/routes/NewsSportRoutes';
+import { NewsPremium } from './pages/news/pages/newsPremium/NewsPremium';
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
       {/* 뉴스 */}
       <Route path="/news/*" element={<NewsHomeRoutes />} /> 
       <Route path="/entertain-news/*" element={<NewsEntertainRoutes />} /> 
+      <Route path="/sport-news/*" element={<NewsSportRoutes />} /> 
       <Route path="/weather-news/*" element={<NewsWeatherRoutes />} /> 
+      <Route path="/premium-news" element={<NewsPremium />} />
 
       <Route path="/finance/*" element={<FinanceRoutes />} /> 
       <Route path="/land/*" element={<LandRoutes />} /> 

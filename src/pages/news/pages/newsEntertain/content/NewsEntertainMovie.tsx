@@ -1,3 +1,5 @@
+import "./style/NewsEntertainContent.css"
+
 export function NewsEntertainMovie() {
-  return <h1>Entertain Movie</h1>
+  return <div className="border-top">Entertain Movie</div>
 }

@@ -7,23 +7,28 @@ interface Title {
 }
 
 interface NavMenuProps {
+  navClass?: string;
+  linkClass?: string;
   navTitles: Title[];
 }
 
-export function NavMenu({ navTitles }: NavMenuProps) {
+export function NavMenu({ navClass, linkClass, navTitles }: NavMenuProps) {
+  const linkStyle = linkClass || "link-style";
+
   return (
-    <nav>
-      <ul>
-        {navTitles.map((title, index) => (
-          <li key={index}>
-            <Link className="link-style" to={title.link}>
-              {title.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      
+    <>
+      <nav className={navClass}>
+        <ul>
+          {navTitles.map((title, index) => (
+            <li key={index}>
+              <Link className={linkStyle} to={title.link}>
+                {title.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
       <Outlet />
-    </nav>
+    </>
   );
 }

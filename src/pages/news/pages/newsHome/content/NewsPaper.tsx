@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsPaper() {
-  return <h1>Read Paper</h1>
+  return <div className="grey-content">신문보기</div>
 }

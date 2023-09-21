@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsWorld() {
-  return <h1>World</h1>
+  return <div className="grey-content">세계</div>
 }

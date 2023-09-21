@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsEconomy() {
-  return <h1>Economy</h1>
+  return <div className="grey-content">경제</div>
 }

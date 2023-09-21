@@ -283,6 +283,90 @@ export const eNewsNavData:Title[] = [
   }
 ]
 
+// 뉴스 스포츠
+export const sNewsNavData:Title[] = [
+  {
+    link: '',
+    name: '스포츠 홈'
+  },
+  {
+    link: 'kbaseball',
+    name: '야구'
+  },
+  {
+    link: 'wbaseball',
+    name: '해외야구'
+  },
+  {
+    link: 'ksoccer',
+    name: '축구'
+  },
+  {
+    link: 'wsoccer',
+    name: '해외축구'
+  },
+  {
+    link: 'basketball',
+    name: '농구'
+  },
+  {
+    link: 'volleyball',
+    name: '배구'
+  },
+  {
+    link: 'golf',
+    name: '골프'
+  },
+  {
+    link: 'ag-general',
+    name: 'AG/일반'
+  },
+  {
+    link: 'e-sport',
+    name: 'e스포츠'
+  },
+  {
+    link: 'press',
+    name: '연재'
+  },
+  {
+    link: 'scoreboard',
+    name: '오늘의 경기'
+  },
+  {
+    link: 'ranking',
+    name: '랭킹'
+  }
+]
+
+// 뉴스 스포츠 헤더
+export const sNewsHeadData:Title[] = [
+  {
+    link: '/',
+    name: 'N'
+  },
+  {
+    link: '',
+    name: 'SPORTS'
+  },
+  {
+    link: 'community',
+    name: '커뮤니티'
+  },
+  {
+    link: '/news',
+    name: '뉴스'
+  },
+  {
+    link: '/weather-news',
+    name: '날씨'
+  },
+  {
+    link: '/entertain-news',
+    name: '연예'
+  }
+]
+
 // 뉴스 날씨
 export const wNewsNavData:Title[] = [
   {

@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsITScience() {
-  return <h1>IT and Science</h1>
+  return <div className="grey-content">IT/과학</div>
 }

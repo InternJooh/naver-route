@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsTV() {
-  return <h1>TV</h1>
+  return <div className="grey-content">TV</div>
 }

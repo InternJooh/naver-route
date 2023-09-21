@@ -1,3 +1,5 @@
+import "./style/NewsHomeContent.css"
+
 export function NewsAlgorithm() {
-  return <h1>News Algorithm</h1>
+  return <div className="grey-content">알고리즘 안내</div>
 }
