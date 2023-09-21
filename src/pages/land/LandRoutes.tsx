@@ -1,4 +1,4 @@
-import { landRoutesData } from "../../components/data/RoutesData"
+import { landRoutesData } from "../../data/RoutesData"
 import { PageRoutes } from "../../components/routes/PageRoutes"
 import { LandNav } from "./LandNav"
 

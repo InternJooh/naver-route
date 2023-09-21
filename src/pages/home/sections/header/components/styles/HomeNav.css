@@ -1,0 +1,16 @@
+.home-nav {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+.home-navlink {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}

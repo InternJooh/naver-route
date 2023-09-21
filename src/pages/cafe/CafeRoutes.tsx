@@ -1,5 +1,5 @@
 import { PageRoutes } from "../../components/routes/PageRoutes";
-import { cafeRoutesData } from "../../components/data/RoutesData";
+import { cafeRoutesData } from "../../data/RoutesData";
 import { CafeNav } from "./CafeNav";
 
 export function CafeRoutes() {

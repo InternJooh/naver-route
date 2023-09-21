@@ -1,4 +1,4 @@
-import { shopRoutesData } from "../../components/data/RoutesData";
+import { shopRoutesData } from "../../data/RoutesData";
 import { PageRoutes } from "../../components/routes/PageRoutes";
 import { ShopNav } from "./ShopNav";
 

@@ -64,6 +64,14 @@ export const cafeNavData:Title[] = [
   {
     link: "powers",
     name: "대표카페"
+  },
+  {
+    link: "my-update",
+    name: "내소식"
+  },
+  {
+    link: "chat",
+    name: "채팅"
   }
 ]
 
@@ -163,7 +171,7 @@ export const shopNavData:Title[] = [
   }
 ]
 
-// 뉴스
+// 뉴스 홈
 export const newsNavData:Title[] = [
   {
     link: '',
@@ -219,6 +227,97 @@ export const newsNavData:Title[] = [
   }
 ]
 
+// 뉴스 홈 헤더
+export const newsHeadData:Title[] = [
+  {
+    link: '/',
+    name: 'N'
+  },
+  {
+    link: '',
+    name: '뉴스'
+  },
+  {
+    link: '/entertain-news',
+    name: '연예'
+  },
+  {
+    link: '/sport-news',
+    name: '스포츠'
+  },
+  {
+    link: '/weather-news',
+    name: '날씨'
+  },
+  {
+    link: '/premium-news',
+    name: '프리미엄'
+  }
+]
+
+// 뉴스 연예
+export const eNewsNavData:Title[] = [
+  {
+    link: '',
+    name: 'TV연예홈'
+  },
+  {
+    link: 'tv',
+    name: 'TV'
+  },
+  {
+    link: 'photo',
+    name: '포토'
+  },
+  {
+    link: 'ranking',
+    name: '랭킹'
+  },
+  {
+    link: 'movie',
+    name: '영화'
+  },
+  {
+    link: 'recent',
+    name: '최신뉴스'
+  }
+]
+
+// 뉴스 날씨
+export const wNewsNavData:Title[] = [
+  {
+    link: '/',
+    name: 'N'
+  },
+  {
+    link: '',
+    name: '날씨'
+  },
+  {
+    link: '',
+    name: '홈'
+  },
+  {
+    link: 'compare',
+    name: '예보비교'
+  },
+  {
+    link: 'air',
+    name: '미세먼지'
+  },
+  {
+    link: 'map',
+    name: '지도'
+  },
+  {
+    link: 'video',
+    name: '영상'
+  },
+  {
+    link: 'warning',
+    name: '기상특보'
+  }
+]
 
 // 증권
 export const financeNavData:Title[] = [
@@ -285,5 +384,61 @@ export const landNavData:Title[] = [
   {
     link: 'my-house',
     name: '우리집'
+  }
+]
+
+// 지도
+export const mapNavData:Title[] = [
+  {
+    link: '',
+    name: '지도 홈'
+  },
+  {
+    link: 'directions',
+    name: '길찾기'
+  },
+  {
+    link: 'bus',
+    name: '버스'
+  },
+  {
+    link: 'subway',
+    name: '지하철'
+  },
+  {
+    link: 'train',
+    name: '기차'
+  },
+  {
+    link: 'save',
+    name: '저장'
+  },
+  {
+    link: 'more',
+    name: '더보기'
+  }
+]
+
+// 웹툰
+export const comicNavData:Title[] = [
+  {
+    link: '',
+    name: '홈'
+  },
+  {
+    link: 'webtoon',
+    name: '웹툰'
+  },
+  {
+    link: 'best-challenge',
+    name: '베스트도전'
+  },
+  {
+    link: 'challenge',
+    name: '도전만화'
+  },
+  {
+    link: 'my-page',
+    name: '마이페이지'
   }
 ]

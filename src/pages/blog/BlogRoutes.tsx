@@ -1,4 +1,4 @@
-import { blogRoutesData } from "../../components/data/RoutesData";
+import { blogRoutesData } from "../../data/RoutesData";
 import { PageRoutes } from "../../components/routes/PageRoutes";
 import { BlogNav } from "./BlogNav";
 

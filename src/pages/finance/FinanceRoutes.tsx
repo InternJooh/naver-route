@@ -1,4 +1,4 @@
-import { financeRoutesData } from "../../components/data/RoutesData"
+import { financeRoutesData } from "../../data/RoutesData"
 import { PageRoutes } from "../../components/routes/PageRoutes"
 import { FinanceNav } from "./FinanceNav"
 
