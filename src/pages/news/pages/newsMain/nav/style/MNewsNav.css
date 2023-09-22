@@ -1,0 +1,39 @@
+.news-home-nav {
+  background-color: white;
+  height: 46px;
+  margin-left: 16%;
+  padding-top: 12.5px;
+}
+
+.news-home-nav ul {
+  display: flex;
+  margin: 0;
+}
+
+.news-home-nav ul li {
+  list-style: none;
+}
+
+.news-home-nav ul li a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.news-home-link {
+  text-decoration: none;
+  color: black;
+  padding: 15px 7px 14px;
+}
+
+.news-home-link.active {
+  color: #3F63BF;
+  font-weight: 700 !important;
+}
+
+.news-home-link span {
+  padding: 0 3px 14px;
+}
+
+.news-home-link.active span {
+  border-bottom: solid #3F63BF;
+}

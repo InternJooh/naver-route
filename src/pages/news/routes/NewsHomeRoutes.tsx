@@ -1,7 +1,7 @@
-import { NewsHomeNav } from "../pages/newsHome/nav/NewsHomeNav";
+import { MNewsNav } from "../pages/newsMain/nav/MNewsNav";
 import { PageRoutes } from "../../../components/routes/PageRoutes";
 import { newsRoutesData } from "../../../data/RoutesData";
 
 export function NewsHomeRoutes() {
-  return (<PageRoutes routesData={newsRoutesData} navComponent={<NewsHomeNav />} />)
+  return (<PageRoutes routesData={newsRoutesData} navComponent={<MNewsNav />} />)
 }

@@ -1,0 +1,70 @@
+.news-home-head {
+  height: 52px;
+  width: 100%;
+  background-color: #3F63BF;
+  margin: 0;
+  padding-left: 15.4%;
+}
+
+.news-home-head ul {
+  margin: 0;
+  display: flex;
+}
+
+.news-home-head ul li {
+  list-style: none;
+}
+
+.news-home-head ul li:nth-child(2) {
+  margin-top: 13px;
+}
+
+.news-home-head ul li:first-child a {
+  padding: 30px 0 5px;
+}
+
+.news-home-head ul li:nth-child(2) a {
+  padding: 13px 9px 13px 0;
+}
+
+.news-home-head ul li:nth-child(3) {
+  margin-left: 0 !important;
+}
+
+.news-home-head ul li a {
+  color: rgb(255, 255, 255,0.65);
+  font-size: 17.6px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.news-home-head ul li:first-child a::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../../../../../../../images/naver-logo-blue.png);
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 43px;
+  transform: scale(0.5) translate(5px, 7px);
+}
+
+.news-home-head ul li:nth-child(2) a {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.news-home-head-link {
+  display: inline-block;
+  padding: 16px 7px 12px;  
+}
+
+.news-home-head-link::before {
+  content: "";
+  display: inline-block;
+  height: 14px;
+  border: 0.5px solid rgb(255, 255, 255, 0.15);
+  position: relative;
+  top: 1px;
+  right: 7px;
+}

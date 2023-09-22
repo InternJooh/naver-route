@@ -1,0 +1,10 @@
+.eNews-side-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+.eNews-side-nav-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}

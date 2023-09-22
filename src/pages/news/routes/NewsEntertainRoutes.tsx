@@ -1,7 +1,7 @@
 import { PageRoutes } from "../../../components/routes/PageRoutes";
 import { eNewsRoutesData } from "../../../data/RoutesData";
-import { NewsEntertainNav } from "../pages/newsEntertain/nav/NewsEntertainNav";
+import { ENewsNav } from "../pages/newsEntertain/nav/ENewsNav";
 
 export function NewsEntertainRoutes() {
-  return (<PageRoutes routesData={eNewsRoutesData} navComponent={<NewsEntertainNav />} />)
+  return (<PageRoutes routesData={eNewsRoutesData} navComponent={<ENewsNav />} />)
 }

@@ -255,7 +255,23 @@ export const newsHeadData:Title[] = [
   }
 ]
 
-// 뉴스 연예
+// 뉴스 연예 사이드
+export const eNewsSideData: Title[] = [
+  {
+    link: '/',
+    name: 'NAVER'
+  },
+  {
+    link: '',
+    name: 'TV연예'
+  },
+  {
+    link: '/news',
+    name: '뉴스'
+  }
+]
+
+// 뉴스 연예 메인
 export const eNewsNavData:Title[] = [
   {
     link: '',
