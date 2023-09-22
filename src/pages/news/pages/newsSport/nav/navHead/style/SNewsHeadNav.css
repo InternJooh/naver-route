@@ -1,0 +1,91 @@
+.sNews-headNav {
+  height: 54px;
+  width: 100%;
+  background-color: #3663C8;
+  margin: 0;
+  border-bottom: 1px solid #3059B4;  
+  color: white;
+}
+
+.sNews-headNav ul {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.sNews-headNav ul li:first-child a span::before {
+  content: '';
+  background-image: url(../../../../../../../images/naver-logo-bw.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  transform: scale(0.5) translate(-59%);
+  position: absolute;
+  top: -8.5px;
+}
+
+.sNews-headNav ul li:nth-child(2) a span::before{
+  content: '';
+  background-image: url(../../../../../../../images/naver-sports-logo.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  transform: scale(0.5) translate(-77%);
+  position: absolute;
+  top: 2.5px;
+}
+
+.sNews-headNav ul li:nth-child(3) a span::before{
+  content: '';
+  display: inline-block;
+  border: 0.2px solid rgba(255, 255, 255, 0.16);
+  height: 15px;
+  position: relative;
+  top: 1px;
+  right: 9px;
+}
+
+.sNews-headNav ul li:nth-child(n+4) a span::before{
+  content: '';
+  display: inline-block;
+  border: 0.2px solid rgba(255, 255, 255, 0.16);
+  height: 11px;
+  position: relative;
+  top: 0.6px;
+  right: 8px;
+}
+
+.sNews-headNav-link {
+  text-decoration: none;
+  color: #7D9ADC;
+  font-weight: 900;
+  padding: 18px 10px 18px;
+}
+
+.sNews-headNav ul li:nth-child(n+3) a {
+  padding: 18px 8px 18px;
+}
+
+.sNews-headNav ul li:nth-child(3) a {
+  margin-left: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.sNews-headNav ul li:nth-child(n+4) a {
+  position: relative;
+  top: 6.5px;
+}
+
+.sNews-headNav ul li:first-child a {
+  padding-right: 36px;
+  padding-bottom: 23px;
+}
+
+.sNews-headNav ul li:nth-child(2) a {
+  padding: 18px 73px 23px 23px;
+}

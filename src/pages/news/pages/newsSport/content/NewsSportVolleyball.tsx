@@ -1,3 +1,3 @@
 export function NewsSportVolleyball() {
-  return <h1>배구</h1>
+  return <h1 className="sNews-content">배구</h1>
 }

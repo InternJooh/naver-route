@@ -1,3 +1,3 @@
 export function NewsSportPress() {
-  return <h1>연재</h1>
+  return <h1 className="sNews-content">연재</h1>
 }

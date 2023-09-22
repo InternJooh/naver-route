@@ -335,7 +335,7 @@ export const sNewsNavData:Title[] = [
   },
   {
     link: 'ag-general',
-    name: 'AG/일반'
+    name: 'AG·일반'
   },
   {
     link: 'e-sport',
@@ -359,11 +359,11 @@ export const sNewsNavData:Title[] = [
 export const sNewsHeadData:Title[] = [
   {
     link: '/',
-    name: 'N'
+    name: ''
   },
   {
     link: '',
-    name: 'SPORTS'
+    name: ''
   },
   {
     link: 'community',

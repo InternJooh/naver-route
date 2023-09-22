@@ -1,3 +1,3 @@
 export function NewsSportRanking() {
-  return <h1>랭킹</h1>
+  return <h1 className="sNews-content">랭킹</h1>
 }
