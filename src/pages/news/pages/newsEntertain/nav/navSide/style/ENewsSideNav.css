@@ -24,7 +24,7 @@
 
 .eNews-sideNav ul li:first-child a::before {
   content: '';
-  background-image: url(../../../../../../../images/naver-logo-complete.png);
+  background-image: url(../../../../../../../../public/images/naver-logo-complete.png);
   display: inline-block;
   background-repeat: no-repeat;
   width: 159px;

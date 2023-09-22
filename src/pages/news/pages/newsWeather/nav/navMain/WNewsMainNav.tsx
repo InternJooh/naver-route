@@ -12,7 +12,7 @@ interface NavMenuProps {
   navTitles: Title[];
 }
 
-export function NewsNavMenu({ page, defaultStyle, navClass, navTitles }: NavMenuProps) {
+export function WNewsMainNav({ page, defaultStyle, navClass, navTitles }: NavMenuProps) {
   const activeStyle = `${defaultStyle} active`;
   const beginningURL = page ? `${page}-news` : "news";
   const location = useLocation();
@@ -26,10 +26,16 @@ export function NewsNavMenu({ page, defaultStyle, navClass, navTitles }: NavMenu
             return (
               <li key={index}>
                 <Link
-                  className={isActive ? activeStyle : defaultStyle}
+                  className={isActive && index>=2 ? activeStyle : defaultStyle}
                   to={title.link}
                   >
+                    {index === 0 && page==="weather" ? (
+                      <span className="naver-black-span">
+                        <img src="../../../../images/naver-black.png" alt="naver-black-logo" className="naver-black" />
+                      </span>
+                  ) : (
                     <span className="">{title.name}</span>
+                  )}
                 </Link>
               </li>
             );

@@ -16,7 +16,7 @@
 
 .sNews-headNav ul li:first-child a span::before {
   content: '';
-  background-image: url(../../../../../../../images/naver-logo-bw.png);
+  background-image: url(../../../../../../../../public/images/naver-logo-bw.png);
   background-repeat: no-repeat;
   display: inline-block;
   width: 70px;
@@ -24,11 +24,11 @@
   transform: scale(0.5) translate(-59%);
   position: absolute;
   top: -8.5px;
-}
+} 
 
 .sNews-headNav ul li:nth-child(2) a span::before{
   content: '';
-  background-image: url(../../../../../../../images/naver-sports-logo.png);
+  background-image: url(../../../../../../../../public/images/naver-sports-logo.png);
   background-repeat: no-repeat;
   display: inline-block;
   width: 200px;
@@ -37,6 +37,7 @@
   position: absolute;
   top: 2.5px;
 }
+ 
 
 .sNews-headNav ul li:nth-child(3) a span::before{
   content: '';

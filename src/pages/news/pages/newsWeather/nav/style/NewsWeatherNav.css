@@ -1,9 +1,72 @@
-.news-weather-nav {
+.wNews-nav {
   width: 100%;
   height: 51px;
   border-bottom: 0.5px solid rgb(197, 189, 189);
+  display: flex;
+  align-items: center;
 }
 
-.news-weather-nav ul {
+.wNews-nav ul {
   margin: 0;
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wNews-nav-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 25px;
+}
+
+.border {
+  border: solid black;
+}
+
+.naver-black {
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+}
+
+.naver-black-span {
+  padding: 22px 0px 10px 0px;
+  position: relative;
+  right: 3px;
+  top: 2px;
+}
+
+.wNews-nav li:nth-child(n+2) {
+  position: relative;
+  top: 2px;
+}
+
+.wNews-nav li:nth-child(2) span {
+  padding: 13px 0px;
+}
+
+.wNews-nav li:nth-child(n+3) span {
+  padding: 17px 0px 15px;
+  font-size: 17px;
+}
+
+.wNews-nav li:first-child a {
+  margin-right: 0px;
+}
+
+.wNews-nav li:nth-child(2) {
+  font-weight: 900;
+  font-size: 21px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-right: 12px;
+}
+
+.wNews-nav-link.active {
+  font-weight: 900;
+}
+
+.wNews-nav-link.active span {
+  border-bottom: solid black;
 }

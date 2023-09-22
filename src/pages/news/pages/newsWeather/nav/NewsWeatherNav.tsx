@@ -1,11 +1,12 @@
-import { NavMenu } from "../../../../../components/gnb/NavMenu";
 import { wNewsNavData } from "../../../../../data/NavData";
+import { NewsNavMenu } from "../../../nav/NewsNavMenu";
+import { WNewsMainNav } from "./navMain/WNewsMainNav";
 import "./style/NewsWeatherNav.css"
 
 export function NewsWeatherNav() {
   return (
     <div>
-      <NavMenu navClass="news-weather-nav" navTitles={wNewsNavData} />
+      <WNewsMainNav page="weather" defaultStyle="wNews-nav-link" navClass="wNews-nav" navTitles={wNewsNavData} />
     </div>
   )
 }

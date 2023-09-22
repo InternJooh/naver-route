@@ -23,7 +23,7 @@
 .search-naver::before {
   content: "";
   display: block;
-  background-image: url(../../../../../../images/naver-logo.png);
+  background-image: url(../../../../../../../public/images/naver-logo.png);
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;

@@ -41,7 +41,7 @@
 .news-home-head ul li:first-child a::before {
   content: "";
   display: inline-block;
-  background-image: url(../../../../../../../images/naver-logo-blue.png);
+  background-image: url(../../../../../../../../public/images/naver-logo-blue.png);
   background-repeat: no-repeat;
   width: 46px;
   height: 43px;
