@@ -1,10 +1,25 @@
-.eNews-main-nav ul {
-  margin: 0;
-  list-style: none;
+.eNews-mainNav {
+  position: absolute;
+  top: 20px;
+  left: 34.8%;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.eNews-main-nav-link {
+.eNews-mainNav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.eNews-mainNav-link {
   text-decoration: none;
   color: black;
-  margin-right: 20px;
+  margin-right: 27.5px;
+  padding-bottom: 2px;
+}
+
+.eNews-mainNav-link.active {
+  color: #E2458F;
+  border-bottom: 2px solid #E2458F;
 }

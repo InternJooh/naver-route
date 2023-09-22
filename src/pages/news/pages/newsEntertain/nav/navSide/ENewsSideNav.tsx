@@ -13,12 +13,12 @@ interface NavMenuProps {
 export function ENewsSideNav({ navTitles }: NavMenuProps) {
   return (
     <>
-      <nav className="eNews-side-nav">
+      <nav className="eNews-sideNav">
         <ul>
           {navTitles.map((title, index) => {
             return (
               <li key={index}>
-                <Link className="eNews-side-nav-link" to={title.link}>
+                <Link className="eNews-sideNav-link" to={title.link}>
                   {title.name}
                 </Link>
               </li>

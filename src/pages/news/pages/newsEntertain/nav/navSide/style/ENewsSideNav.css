@@ -1,10 +1,46 @@
-.eNews-side-nav ul {
+.eNews-sideNav {
+  position: absolute;
+  top: 19px;
+  left: 25px;
+  font-size: 18px;
+}
+
+.eNews-sideNav ul {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-.eNews-side-nav-link {
+.eNews-sideNav ul li:first-child {
+  width: 80px;
+}
+
+.eNews-sideNav-link {
   text-decoration: none;
   color: black;
-  margin-right: 20px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.eNews-sideNav ul li:first-child a::before {
+  content: '';
+  background-image: url(../../../../../../../images/naver-logo-complete.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 159px;
+  height: 42px;
+  transform: scale(0.5) translate(-57%, -59%);
+}
+
+.eNews-sideNav ul li:last-child a{
+  color: rgb(175, 166, 166);
+  font-weight: 700;
+}
+
+.eNews-sideNav ul li:last-child a::before{
+  content: '';
+  display: inline-block;
+  height: 11px;
+  border: 0.5px solid rgb(206, 199, 199);
+  margin-right: 10px;
 }

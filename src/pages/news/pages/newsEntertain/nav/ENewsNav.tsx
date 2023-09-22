@@ -9,7 +9,7 @@ export function ENewsNav() {
     <>
       <div className="eNews-nav">
         <ENewsSideNav navTitles={eNewsSideData}/>
-        <ENewsMainNav page="entertain-news" defaultStyle="eNews-main-nav-link" navClass="eNews-main-nav" navTitles={eNewsNavData} />
+        <ENewsMainNav page="entertain" defaultStyle="eNews-mainNav-link" navClass="eNews-mainNav" navTitles={eNewsNavData} />
       </div>
       
       <Outlet />

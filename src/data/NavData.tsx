@@ -259,7 +259,7 @@ export const newsHeadData:Title[] = [
 export const eNewsSideData: Title[] = [
   {
     link: '/',
-    name: 'NAVER'
+    name: ''
   },
   {
     link: '',
