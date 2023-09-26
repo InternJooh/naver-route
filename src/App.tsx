@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { CafeRoutes } from './pages/cafe/CafeRoutes';
 import { BlogRoutes } from './pages/blog/BlogRoutes';
 import { ShopRoutes } from './pages/shop/ShopRoutes';
-import { NewsHomeRoutes } from './pages/news/routes/NewsHomeRoutes';
+import { NewsMainRoutes } from './pages/news/routes/NewsMainRoutes';
 import { FinanceRoutes } from './pages/finance/FinanceRoutes';
 import { LandRoutes } from './pages/land/LandRoutes' 
 import { MapRoutes } from './pages/map/MapRoutes';
@@ -25,7 +25,7 @@ function App() {
       <Route path="/blog/*" element={<BlogRoutes />} /> 
       <Route path="/shop/*" element={<ShopRoutes />} /> 
       {/* 뉴스 */}
-      <Route path="/news/*" element={<NewsHomeRoutes />} /> 
+      <Route path="/news/*" element={<NewsMainRoutes />} /> 
       <Route path="/entertain-news/*" element={<NewsEntertainRoutes />} /> 
       <Route path="/sport-news/*" element={<NewsSportRoutes />} /> 
       <Route path="/weather-news/*" element={<NewsWeatherRoutes />} /> 
